@@ -9,7 +9,8 @@
     height: 25px;
     border-radius: 50%;
     position: relative;
-    right: 5px;
+    top: 5px;
+    right: 10px;
 }
 
 .plus-logo {
@@ -27,4 +28,10 @@
 .container {
     position: relative;
     left: 10rem;
+}
+
+.dropbox {
+    display: flex;
+    position: relative;
+    right: 150px;
 }
