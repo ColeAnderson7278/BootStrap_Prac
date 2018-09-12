@@ -4,11 +4,13 @@
 
 .name-container {
     display: flex;
+    padding-top: 10px;
 }
 
 .name {
     color: blue;
     font-family: sans-serif;
+    font-size: larger;
 }
 
 .slash {
@@ -16,17 +18,20 @@
     padding-left: 5px;
     padding-right: 5px;
     font-family: sans-serif;
+    font-size: larger;
 }
 
 .boldname {
     color: blue;
     font-weight: bold;
     font-family: sans-serif;
+    font-size: larger;
 }
 
 .button-container {
     position: relative;
-    left: 100px;
+    left: 600px;
+    padding-top: 10px;
 }
 
 .tab-container {
@@ -53,4 +58,42 @@
     border-right: 1px solid rgb(201, 199, 299);
     border-top-color: #e36209;
     border-bottom-color: white;
+}
+
+.git-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bell-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.plus-logo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.user-logo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    left: 10rem;
+}
+
+.dropbox {
+    display: flex;
+    position: relative;
+    right: 150px;
 }
