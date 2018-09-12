@@ -46,3 +46,11 @@
     border-radius: 10%;
     font-family: sans-serif;
 }
+
+.nav-item:hover {
+    border: 3px solid;
+    border-left: 1px solid rgb(201, 199, 299);
+    border-right: 1px solid rgb(201, 199, 299);
+    border-top-color: #e36209;
+    border-bottom-color: white;
+}
