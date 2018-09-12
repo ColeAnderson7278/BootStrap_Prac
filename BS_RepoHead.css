@@ -24,7 +24,9 @@
     font-family: sans-serif;
 }
 
-.dropdown-container {
+.button-container {
+    position: relative;
+    left: 100px;
 }
 
 .tab-container {
