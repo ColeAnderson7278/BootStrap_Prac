@@ -58,7 +58,7 @@
     font-family: sans-serif;
 }
 
-.nav-item:hover {
+.nav-container .nav-item:hover {
     border: 3px solid;
     border-left: 1px solid rgb(201, 199, 299);
     border-right: 1px solid rgb(201, 199, 299);
@@ -102,4 +102,8 @@
     display: flex;
     position: relative;
     right: 150px;
+}
+
+.open-closed-container {
+    display: flex;
 }
