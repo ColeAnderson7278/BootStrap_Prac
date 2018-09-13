@@ -152,15 +152,23 @@
     <div style="padding-left: 5px;" class="topnav">
         <input style="width: 500px;" type="text" placeholder="is:open">
     </div>
-    <ul class="nav nav-tabs">
-        <li class="active">
-            <a style="padding-left: 10px; color: black; font-weight: bold; padding-right: 10px;" data-toggle="tab" href="#open">4 Open</a>
-        </li>
-        <li>
-            <a style="color: black; font-weight: bold;" data-toggle="tab" href="#closed">9 Closed</a>
-        </li>
-    </ul>
-
+    <div style="height: 50px; border-width: 5px; border-color: grey;" class="open-closed-container">
+        <ul style="padding-top: 15px;" class="nav nav-tabs">
+            <li class="active">
+                <a style="padding-left: 10px; color: black; font-weight: bold; padding-right: 10px;" data-toggle="tab" href="#open">4 Open</a>
+            </li>
+            <li>
+                <a style="color: black; font-weight: bold;" data-toggle="tab" href="#closed">9 Closed</a>
+            </li>
+        </ul>
+        <div style="position: relative; left: 1215px;" class="dropdown">
+            <button class="btn btn-primary dropdown-toggle bg-light" type="button" data-toggle="dropdown" style="color: grey; border-color: white;">Sort
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+            </ul>
+        </div>
+    </div>
     <div class="tab-content">
         <div id="open" class="tab-pane fade in active">
             <div style="padding-left: 10px;" class="table-responsive">
